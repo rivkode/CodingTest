@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+
+-- ROUND를 통해 반올림을 하였으며, AS를 사용하여 컬럼명을 지정하였습니다
+
+SELECT ROUND(AVG(DAILY_FEE), 0) AS AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV';
